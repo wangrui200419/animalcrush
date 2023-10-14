@@ -1,0 +1,25 @@
+body {
+    background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: arial, Helvetice, sans-serif;
+    color: rgb(178, 40, 63);
+    text-align: center;
+    margin-top: 70px;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(241, 196, 158);
+    border: 5px solid rgba(215, 112, 78, 0.851);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+
+}
